@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".coursesdetails">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <Button
+        android:id="@+id/btncurrentlyreading"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="10dp"
+        android:text="Add to Ongoing Course"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnaddtowishlist"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Add to Whislist"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/btncurrentlyreading"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/btncurrentlyreading"
+        app:layout_constraintTop_toBottomOf="@+id/btncurrentlyreading" />
+
+    <Button
+        android:id="@+id/btncompleted"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Already Completed"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/btnaddtofavourites"
+        app:layout_constraintStart_toStartOf="@+id/btnaddtofavourites"
+        app:layout_constraintTop_toBottomOf="@+id/btnaddtofavourites" />
+
+    <Button
+        android:id="@+id/btnaddtofavourites"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Add to Favourites"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/btnaddtowishlist"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnaddtowishlist"
+        app:layout_constraintTop_toBottomOf="@+id/btnaddtowishlist" />
+
+    <TextView
+        android:id="@+id/txtcoursename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Course Name:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtcreatorname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Creator Name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcoursename" />
+
+    <TextView
+        android:id="@+id/txtduration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Duration:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcreatorname"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <TextView
+        android:id="@+id/txtnameofthebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="Name of the book"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toEndOf="@+id/txtcoursename"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtnameofthecreator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Nameofthecreator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toEndOf="@+id/txtcreatorname"
+        app:layout_constraintTop_toBottomOf="@+id/txtnameofthebook" />
+
+    <TextView
+        android:id="@+id/txtdurationofcourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="15hrs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toEndOf="@+id/txtduration"
+        app:layout_constraintTop_toBottomOf="@+id/txtnameofthecreator"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="184dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="262dp" />
+
+    <Button
+        android:id="@+id/btnweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="124dp"
+        android:text="View Content"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

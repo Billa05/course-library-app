@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android development/First real app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37864583333333335" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/drawable/ic_catlogoicon_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/layout/activity_allcourse.xml" value="0.325" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/layout/activity_already_read_courses.xml" value="0.3625" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/layout/activity_coursesdetails.xml" value="0.3625" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/layout/activity_current_reading.xml" value="0.3625" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/layout/activity_fav_courses.xml" value="0.3625" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/layout/activity_web_view.xml" value="0.325" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/layout/activity_wishlist.xml" value="0.3625" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/layout/view_more.xml" value="0.3625" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/mipmap-anydpi-v26/ic_catlogoicon.xml" value="0.37864583333333335" />
+        <entry key="..\:/Android development/First real app/app/src/main/res/mipmap-anydpi-v26/ic_catlogoicon_round.xml" value="0.21875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

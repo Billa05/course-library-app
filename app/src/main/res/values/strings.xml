@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Courses</string>
+    <string name="activity_all_courses">All Courses</string>
+    <string name="activity_courses">Course Details</string>
+    <string name="activity_Completed_Courses">Completed Courses</string>
+    <string name="activity_fav_Course">Favourite Courses</string>
+    <string name="activity_Whishlist">Whishlist</string>
+    <string name="activity_Ongoing_Courses">Ongoing Courses</string>
+
+</resources>

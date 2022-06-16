@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textappname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Courses"
+        android:textFontWeight="100"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnshowallcource"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Show all course"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textappname" />
+
+    <Button
+        android:id="@+id/btnwishlist"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Wishlist"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/btnCompleted"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/btnCompleted"
+        app:layout_constraintTop_toBottomOf="@+id/btnCompleted" />
+
+    <Button
+        android:id="@+id/btnprogress"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ongoing Course"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/btnshowallcource"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnshowallcource"
+        app:layout_constraintTop_toBottomOf="@+id/btnshowallcource" />
+
+    <Button
+        android:id="@+id/btnCompleted"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Completed Course"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/btnprogress"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/btnprogress"
+        app:layout_constraintTop_toBottomOf="@+id/btnprogress" />
+
+    <TextView
+        android:id="@+id/txtlincense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Developed by Billa"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@mipmap/catlogo" />
+
+    <Button
+        android:id="@+id/btnfavourites"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Favourites"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/btnwishlist"
+        app:layout_constraintStart_toStartOf="@+id/btnwishlist"
+        app:layout_constraintTop_toBottomOf="@+id/btnwishlist" />
+
+    <Button
+        android:id="@+id/btnaboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ABOUT ME"
+        app:layout_constraintEnd_toEndOf="@+id/btnfavourites"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/btnfavourites"
+        app:layout_constraintTop_toBottomOf="@+id/btnfavourites" />
+</androidx.constraintlayout.widget.ConstraintLayout>
